@@ -1,2 +1,2 @@
 # PythonIntroDS
-Smaples used with an introductory Python course
+Samples used with an introductory Python course
