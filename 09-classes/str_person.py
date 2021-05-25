@@ -1,3 +1,6 @@
+# A class that can be converted to a string
+# for example for printing and logging purposes
+
 class Person:
 	def __init__(self, name, age):
 		self.name = name
