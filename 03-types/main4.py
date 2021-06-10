@@ -37,4 +37,4 @@ print("msg.endswith('d')", msg.endswith('d'))
 
 print('some_string.upper()', msg.upper())
 
-
+print('sub string: ', 'Hello-World'[1:5])
