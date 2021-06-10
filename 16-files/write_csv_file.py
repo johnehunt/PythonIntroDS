@@ -1,7 +1,7 @@
 import csv
 
 print('Crearting CSV file')
-with open('sample.csv', 'w', newline='') as csvfile:
+with open('sample.csv', 'w') as csvfile:
 	writer = csv.writer(csvfile)
 	writer.writerow(['She Loves You', 'Sept 1963'])
 	writer.writerow(['I Want to Hold Your Hand', 'Dec 1963'])
