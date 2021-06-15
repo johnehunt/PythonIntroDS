@@ -1,6 +1,6 @@
 import csv
 
-print('Crearting CSV file')
+print('Creating CSV file')
 with open('sample.csv', 'w') as csvfile:
 	writer = csv.writer(csvfile)
 	writer.writerow(['She Loves You', 'Sept 1963'])
