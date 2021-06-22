@@ -9,7 +9,7 @@ explode = (0.1, 0, 0, 0)
 pyplot.pie(sizes,
            explode=explode,
            labels=labels,
-           autopct='%1.f%%',
+           autopct='%.0f%%',
            shadow=True,
            counterclock=False,
            startangle=90)
