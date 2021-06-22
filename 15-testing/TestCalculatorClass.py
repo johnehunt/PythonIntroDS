@@ -8,26 +8,24 @@ def calculator():
     return Calculator()
 
 def setup_module():
-    print('module set up')
+    print('\nmodule set up')
 
 def teardown_module():
-    print('module teardown')
+    print('\nmodule teardown')
 
 class TestCalculatorClass:
 
-    @classmethod
     def setup_class(cls):
-        print('startup once per class')
+        print('\nstartup once per class')
 
-    @classmethod
     def teardown_class(cls):
-        print('teardown once per class')
+        print('\nteardown once per class')
 
     def setup_method(self):
-        print('startup per test')
+        print('\nstartup per test')
 
     def teardown_method(self):
-        print('teardown per test')
+        print('\nteardown per test')
 
     # Tests follow from here
 
