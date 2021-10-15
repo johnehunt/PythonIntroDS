@@ -7,11 +7,6 @@ def calculator():
     print('calculator fixture')
     return Calculator()
 
-def setup_module():
-    print('\nmodule set up')
-
-def teardown_module():
-    print('\nmodule teardown')
 
 class TestCalculatorClass:
 

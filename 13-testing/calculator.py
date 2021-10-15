@@ -1,3 +1,7 @@
+def add(x, y):
+    return x + y
+
+
 class Calculator:
     def __init__(self):
         self.current = 0
