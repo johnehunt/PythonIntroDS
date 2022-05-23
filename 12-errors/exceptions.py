@@ -76,7 +76,6 @@ class Person:
 
 
 def main():
-
     # divide(6, 0)
 
     print('Starting')
@@ -123,7 +122,7 @@ def main():
         print(e)
 
     try:
-        p1 = Person("Jasmine", 22)
+        p1 = Person("Natalia", 22)
         p1.set_age(-1)
     except InvalidAgeException as exp:
         print(f'Exception: {exp}')
@@ -133,6 +132,7 @@ def main():
     except ValueError as ve:
         print(ve)
         raise
+
 
 if __name__ == "__main__":
     main()

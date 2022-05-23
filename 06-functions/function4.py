@@ -6,4 +6,4 @@ def greeter(*names):
         print('Welcome', name)
 
 
-greeter('John', 'Denise', 'Phoebe', 'Adam', 'Gryff', 'Jasmine')
+greeter('John', 'Denise', 'Phoebe', 'Adam', 'Gryff', 'Natalia')

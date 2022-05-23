@@ -6,7 +6,7 @@ print(my_variable)
 print(type(my_variable))
 
 # String type
-my_variable = 'Jasmine'
+my_variable = 'Natalia'
 print(my_variable)
 print(type(my_variable))
 
