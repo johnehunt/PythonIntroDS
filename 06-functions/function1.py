@@ -1,5 +1,7 @@
 # Examples of simple functions in Python
 
+# Illustrates some basic function definitions
+
 def print_msg():
     """ A function that prints hello world """
     print('Hello World!')
