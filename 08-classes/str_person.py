@@ -9,6 +9,9 @@ class Person:
 	def __str__(self):
 		return self.name + ' is ' + str(self.age)
 
+	def __repr__(self):
+		return f'Person(name={self.name}, age={self.age})'
+
 
 p1 = Person('John', 36)
 p2 = Person('Phoebe', 21)
@@ -25,4 +28,7 @@ print(px)
 
 print('id(p1):', id(p1))
 print('id(px):', id(px))
+
+data = [p1, p2]
+print(data)
 
