@@ -11,3 +11,5 @@ func0()
 print(func1(4))
 print(func2(3, 4))
 print(func3(2, 3, 4))
+
+print(func0())
