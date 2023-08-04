@@ -56,7 +56,7 @@ class Quantity:
     def __le__(self, other):
         return self.value <= other.value
 
-    def __str__(self):
+    def __repr__(self):
         return 'Quantity[' + str(self.value) + ']'
 
 
