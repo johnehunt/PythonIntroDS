@@ -7,7 +7,7 @@ class Person:
 		self.name = name
 		self.age = age
 
-	def __str__(self):
+	def __repr__(self):
 		return self.name + ' is ' + str(self.age)
 
 	def birthday(self):
