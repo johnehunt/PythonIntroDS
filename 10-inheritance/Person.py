@@ -8,6 +8,9 @@ class Person:
         self.age += 1
         print('You are now', self.age)
 
+    def __repr__(self) -> str:
+        return f"Person(${self.name}, ${self.age})"
+
     def __str__(self):
         return self.name + ' is ' + str(self.age)
 

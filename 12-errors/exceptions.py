@@ -41,7 +41,7 @@ class InvalidAgeException(Exception):
     def __init__(self, value):
         self.value = value
 
-    def __str__(self):
+    def __repr__(self):
         return 'InvalidAgeException(' + str(self.value) + ')'
 
 
