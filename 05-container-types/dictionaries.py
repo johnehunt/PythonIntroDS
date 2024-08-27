@@ -1,3 +1,4 @@
+# Set up a dictionary
 cities = {'Wales': 'Cardiff',
           'England': 'London',
           'Scotland': 'Edinburgh',
@@ -6,8 +7,10 @@ cities = {'Wales': 'Cardiff',
 
 print(len(cities))
 print(cities)
-print('cities[Wales]:', cities['Wales'])
-print('cities.get(Ireland):', cities.get('Ireland'))
+
+# Retrieve values for keys
+print('cities[Wales]:', cities['Wales'])  # returns value for key or throws an exception
+print('cities.get(Ireland):', cities.get('Ireland'))  # Returns value for key - does nto throw an exception if not present
 
 print(cities.values())
 print(cities.keys())
@@ -20,8 +23,11 @@ for country in cities:
     print(country, end=', ')
     print(cities[country])
 
+# Add an entry to a dictionary
 cities['Wales'] = 'Swansea'
 print(cities)
+
+# Empty the dictionary of all values
 cities.clear()
 print(cities)
 
@@ -31,10 +37,12 @@ cities = {'Wales': 'Cardiff',
           'Northern Ireland': 'Belfast',
           'Ireland': 'Dublin'}
 print(cities)
-cities.popitem()
-print(cities)
+
+# Remove key from dictionary and return value
 cities.pop('Northern Ireland')
 print(cities)
+
+# Remove key from dictionary
 del cities['Scotland']
 print(cities)
 
@@ -49,6 +57,7 @@ print(d)
 del d['two']
 print(d)
 
+# Values can be containers
 seasons = {'Spring': ('Mar', 'Apr', 'May'),
            'Summer': ('June', 'July', 'August'),
            'Autumn': ('September', 'October', 'November'),
@@ -77,5 +86,3 @@ if key in cities:
 else:
     print('Key not present')
 
-print('key.__hash__():', key.__hash__())
-print("key.__eq__('England'):", key.__eq__('England'))
